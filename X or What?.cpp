@@ -1,5 +1,5 @@
 /*
-<b>Problem</b>
+Problem
 
 Steven has an array of N non-negative integers. The i-th integer (indexed starting from 0) in the array is Ai.
 
@@ -10,7 +10,7 @@ bitwise exclusive or. A subinterval is xor-even if its xor-sum has an even numbe
 Steven would like to make Q modifications to the array. The i-th modification changes the Pi-th (indexed from 0) element to Vi. 
 Steven would like to know, what is the size of the xor-even subinterval of A with the most elements after each modification?
 
-<b>Input</b>
+Input
 
 The first line of the input gives the number of test cases, T. T test cases follow.
 
@@ -22,13 +22,13 @@ The second line contains N integers. The i-th of them gives Ai indicating the i-
 Then, Q lines follow, describing the modifications. The i-th line contains Pi and Vi, The i-th modification changes the Pi-th 
 element to Vi. indicating that the i-th modification changes the Pi-th (indexed from 0) element to Vi.
 
-<b>Output</b>
+Output
 
 For each test case, output one line containing Case #x: y_1 y_2 ... y_Q, where x is the test case number (starting from 1) and 
 y_i is the number of elements in the largest xor-even subinterval of A after the i-th modification. If there are no xor-even 
 subintervals, then output 0.
 
-<b>Limits</b>
+Limits
 
 Time limit: 40 seconds per test set.
 Memory limit: 1GB.
